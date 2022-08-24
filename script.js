@@ -1,4 +1,4 @@
-// Sorry, they may be out of order :)
+// Sorry, they may be out of order
 
 // --------------------
 // -- ANAGRAMS (ONE) --
@@ -122,6 +122,6 @@ function charCount(strArg) {
   }
   return freqCharCount
 }
-
+console.log('-- CHAR COUNT --')
 console.log(charCount('hello')) //=> { h: 1, e: 1, l: 2, o: 1 }
 console.log(charCount('Today is fantastic!')) //=> { T: 1, o: 1, d: 1, a: 3, y: 1, ' ': 2, i: 2, s: 2, f: 1, n: 1, t: 2, c: 1, '!': 1 }
